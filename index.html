@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Travel landing page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">TravelLife
+            </h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="expolre.mp4" muted autoplay loop></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h2>Exploring the world</h2>
+            <p> 
+                Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship as in the case of tourism.
+            </p>
+            <a href="https://ronakmunjapara.wordpress.com/">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="https://www.instagram.com/ronak.munjapara18/"><img src="instagram.png" alt=""></a></li>
+            <li><a href="https://m.facebook.com/ronak.munjapara.92"><img src="facebook.png" alt=""></a></li>
+            <li><a href="https://twitter.com/ronakmunjapara"><img src="twitter.png" alt=""></a></li>
+        </ul>
+
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="">Home</a></li>
+
+            <li><a href="">News</a></li>
+            <li><a href="">blog</a></li>
+
+            <li><a href="">events</a></li>
+            <li><a href="">Contact</a></li>
+
+
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', function(){
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
